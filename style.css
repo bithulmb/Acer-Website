@@ -1,0 +1,229 @@
+/*Universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Noto Sans", Arial, sans-serif;
+}
+
+/*Header Sttling CSS*/
+.header-top {
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-top .container-fluid {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    ;
+}
+
+.right-side i {
+    padding-left: 20px;
+}
+
+.header-bottom .container-fluid {
+    width: 95vw;
+}
+
+.search-button {
+    text-align: end;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.nav-item {
+    padding-left: 15px;
+}
+
+/* Carousel Styling */
+.videoslide {
+
+    object-position: 50% 50%;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
+.banner .btn-outline-success {
+    color: black;
+    background-color: rgb(15, 131, 15);
+    margin-top: 5%;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.caption1 {
+    position: absolute;
+    right: 60%;
+    bottom: 30%;
+    left: 10%;
+
+}
+
+.blackheading {
+    color: black;
+    font-size: 3.2vw;
+    font-weight: 550;
+}
+
+.blacktext {
+    color: black;
+    margin-top: 5%;
+    font-size: 1.2 vw;
+}
+
+.whiteheading {
+    color: white;
+    font-size: 3.2vw;
+    font-weight: 550;
+}
+
+.whitetext {
+    color: white;
+    margin-top: 5%;
+    font-size: 1.2vw;
+}
+
+/* Cards and Images Styling */
+.image-section {
+
+    border-bottom: 8px solid rgba(225, 231, 225, 0.911);
+    display: flex;
+}
+
+.image-section img:hover {
+    transform: scale(1.5);
+}
+
+.card img:hover {
+    transform: scale(1.15);
+}
+
+.card {
+    border: none;
+    padding: 20px 24px;
+}
+
+.card-text {
+    text-align: center;
+    margin: 10px 0px;
+}
+.img-card a {
+
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;
+}
+
+
+/* Footer section Styling */
+.btn-light {
+    width: 100%;
+}
+
+.bottom-footer .nav-item {
+    padding-left: 0px;
+    padding-top: 0.5rem;
+}
+
+.bottom-footer h5 {
+    margin-bottom: 1.0rem;
+    font-weight: 520;
+}
+
+.footer-bottom-most {
+    text-align: center;
+    border-top: 2px solid rgb(185, 181, 181);
+}
+
+.social-media-icons i {
+    font-size: 2.0rem;
+    padding: 1.25rem;
+
+}
+
+.social-media-icons {
+    padding-top: 2.5rem;
+}
+
+.text-list {
+    margin-top: 1.5rem;
+}
+
+.text-list li {
+    list-style: none;
+    border: none;
+    border-right: 1px solid grey;
+    display: inline;
+    padding: 5px 15px;
+}
+
+footer {
+    background-color: #f4f5ef;
+}
+
+.accordion-button,
+.accordion-body {
+    background-color: #f4f5ef;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.accordion-body ul {
+    list-style: none;
+}
+
+/*Carousel icon styling*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+    background-color: rgb(219, 215, 215);
+
+}
+
+/* Carosuel icon styling on hover */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgb(133, 224, 133);
+}
+
+
+#footer-menu-collapse {
+    display: none;
+}
+
+/* Media queries for displaying footer menu */
+@media only screen and (max-width: 992px) {
+    #footer-menu-collapse {
+        display: block;
+        background-color: #f4f5ef;
+    }
+
+    #footer-menu {
+        display: none;
+    }
+
+}
